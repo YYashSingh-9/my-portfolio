@@ -22,7 +22,7 @@ const SkillSection = () => {
           alignItems="center"
           spacing={1}
         >
-          <Grid item>
+          <Grid item sm={1} lg={1} md={1}>
             <Box className={classes.logos}>
               <div className={classes.logoSlide}>
                 <img src={html} />

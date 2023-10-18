@@ -1,19 +1,56 @@
 .logoSlide img {
-  height: 8rem;
-  padding-left: 5rem;
+  height: 9rem;
+  margin-left: 10rem;
+  cursor: pointer;
 }
 .logos {
-  display: flex;
   overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+.logos::before,
+.logos::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  width: 10%;
+  height: 100%;
+  z-index: 4;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.logos:after {
+  right: 0;
+  background: red;
 }
 .logoSlide {
-  white-space: nowrap;
+  animation: 15s slide infinite linear;
+  display: inline-block;
+}
+.logos:hover .logoSlide {
+  animation-play-state: paused;
 }
 .skillDiv {
   width: 100%;
   background-image: url("../assets/backgorund.png");
   height: 100vh;
   background-position: fixed;
-
   overflow: hidden;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }

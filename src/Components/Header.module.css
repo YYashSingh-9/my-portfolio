@@ -19,6 +19,7 @@
   left: 50%;
   top: 2%;
   transform: translate(-50%);
+  z-index: 999;
 }
 .Navbar::before {
   position: absolute;
