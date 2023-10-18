@@ -1,0 +1,19 @@
+My-portfolio (React - SPA) tasks
+
+section 1 - Header with center navbar.
+section 2.1 - sliding animation of web technologies.
+section 2.2 - Skills i have .
+section 3 - my projects .
+section 4 - about me .
+section 5 - footer .
+
+1. Create a emoji navbar.
+2. Create a eye catching header. 
+3. Create two cards of my projects
+4. Create sliding animation of web icons
+5. Create my skills container 
+6. Create about me container
+7. Create a contact me footer section with social links and mail
+
+This project will be in dark theme with my linked brand color with Sanfransico font
+This is a Single-Page-Application
