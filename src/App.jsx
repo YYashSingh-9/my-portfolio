@@ -1,10 +1,10 @@
 import Header from "./Components/Header";
-
+import SkillSection from "./Components/SkillSection";
 function App() {
   return (
     <>
       <Header />
-      <h1 style={{ fontSize: "3rem", fontWeight: "600" }}>Hello World!</h1>
+      <SkillSection />
     </>
   );
 }
