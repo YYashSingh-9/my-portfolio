@@ -1,0 +1,12 @@
+.Imgbox {
+  max-width: 60rem;
+  display: flex;
+}
+.Imgbox img {
+  width: 100%;
+}
+.divOne {
+  background-image: url("../assets//backgorund.png");
+  height: 100vh;
+  background-position: fixed;
+}
