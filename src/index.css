@@ -16,6 +16,6 @@
 
 body {
   margin: 0;
-
+  scroll-behavior: smooth;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }

@@ -15,7 +15,10 @@
   border-bottom-left-radius: 5rem;
   box-shadow: rgba(0, 0, 0, 0.65) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  position: relative;
+  position: fixed;
+  left: 50%;
+  top: 2%;
+  transform: translate(-50%);
 }
 .Navbar::before {
   position: absolute;
@@ -52,6 +55,7 @@
   text-transform: capitalize;
 }
 .title {
+  margin-top: 10%;
   max-width: 100%;
   object-fit: contain;
 }

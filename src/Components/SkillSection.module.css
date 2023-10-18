@@ -1,0 +1,19 @@
+.logoSlide img {
+  height: 8rem;
+  padding-left: 5rem;
+}
+.logos {
+  display: flex;
+  overflow: hidden;
+}
+.logoSlide {
+  white-space: nowrap;
+}
+.skillDiv {
+  width: 100%;
+  background-image: url("../assets/backgorund.png");
+  height: 100vh;
+  background-position: fixed;
+
+  overflow: hidden;
+}
