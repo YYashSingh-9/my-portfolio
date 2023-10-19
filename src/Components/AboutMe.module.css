@@ -12,6 +12,11 @@
   box-shadow: rgba(14, 14, 14, 0.346) 0px 14px 28px,
     rgba(0, 0, 0, 0.428) 0px 10px 10px;
 }
+.parentDiv:hover {
+  border-color: white;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
 .myImgTwo {
   max-width: 23rem;
   max-height: 23rem;
@@ -43,6 +48,7 @@
   padding: 1% 10%;
   border: 0.1rem solid grey;
   border-radius: 1rem;
+  margin-bottom: 2rem;
 }
 .extraLink a {
   text-decoration: none;
