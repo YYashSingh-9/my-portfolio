@@ -1,0 +1,33 @@
+/* #F18B3E #443EE6 */
+.aboutmeSection {
+  background-image: url("../assets/backgorund.png");
+  height: 100vh;
+  background-position: fixed;
+  padding: 1% 0%;
+}
+.parentDiv {
+  border-radius: 2rem;
+  border: 0.1rem solid grey;
+  padding: 1% 10%;
+}
+.myImgTwo {
+  max-width: 23rem;
+  max-height: 23rem;
+}
+.myImgTwo img {
+  height: 100%;
+  width: 100%;
+}
+.titleNtext h2 {
+  font-size: 3.7rem;
+  text-transform: capitalize;
+}
+.titleNtext p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.highlightedText h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}

@@ -14,7 +14,6 @@ import ReactRouter from "../assets/icons/react-router.png";
 import Redux from "../assets/icons/redux.png";
 import ReactToastify from "../assets/icons/toastify.png";
 import PostMan from "../assets/icons/postman-icon.png";
-import GitHub from "../assets/icons/github.png";
 import showingHand from "../assets/my-cartoon-Final/showingHand.png";
 
 const listItemsFE = [
@@ -69,7 +68,6 @@ const SkillSection = () => {
                 <img src={JWT} />
                 <img src={ReactRouter} />
                 <img src={Redux} />
-                <img src={GitHub} />
                 <img src={ReactToastify} />
                 <img src={PostMan} />
                 <img src={MaterialUI} />
