@@ -30,4 +30,6 @@
 .highlightedText h1 {
   font-size: 2rem;
   font-weight: 600;
+  display: inline;
+  color: #f18b3e;
 }

@@ -20,7 +20,7 @@ const AboutMe = () => {
             </Grid>
             <Grid item lg={9} md={9} sm={6}>
               <Box className={classes.titleNtext}>
-                <h2>I wanna say this..</h2>
+                <h2>I wanna say this about me..</h2>
                 <span>
                   <p>
                     This will be short and crisp , i am a full stack web
@@ -31,13 +31,14 @@ const AboutMe = () => {
                     planet. <br />
                     <br />
                     As you might have already seen my skills section so you know
-                    what i know and use but apart from that i am
+                    what i know and use but apart from that i am ..
                     <span className={classes.highlightedText}>
                       <h1>
                         more which makes me stand our from the crowd which
                         are...
                       </h1>
                     </span>
+                    <br />
                     <br />
                     1. I am excellent in business planning and product planning.
                     <br />
