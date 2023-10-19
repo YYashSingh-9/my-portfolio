@@ -50,7 +50,6 @@
   background-position: fixed;
   padding: 1% 10%;
 }
-
 .tooltipDesignH3 {
   font-size: 1.1rem;
   text-transform: capitalize;
@@ -63,7 +62,6 @@
 .title img {
   max-width: 100%;
 }
-
 .Subtitle {
   max-width: 100%;
   object-fit: contain;

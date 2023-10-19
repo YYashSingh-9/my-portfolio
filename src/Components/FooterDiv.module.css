@@ -1,0 +1,21 @@
+.mainFooterDiv {
+  background-image: url("../assets/backgorund.png");
+  height: 100vh;
+  background-position: fixed;
+  padding: 1% 0%;
+}
+.titleimg {
+  max-width: 100rem;
+}
+.titleimg img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.Subtitleimg {
+  max-width: 30rem;
+  margin-top: -10%;
+}
+.Subtitleimg img {
+  max-width: 10rem;
+  max-height: 10rem;
+}

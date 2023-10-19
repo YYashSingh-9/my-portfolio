@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import SkillSection from "./Components/SkillSection";
 import AboutMe from "./Components/AboutMe";
 import MyProjects from "./Components/MyProjects";
+import FooterDiv from "./Components/FooterDiv";
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
       <SkillSection />
       <AboutMe />
       <MyProjects />
+      <FooterDiv />
     </>
   );
 }
