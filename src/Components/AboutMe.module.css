@@ -9,6 +9,8 @@
   border-radius: 2rem;
   border: 0.1rem solid grey;
   padding: 1% 10%;
+  box-shadow: rgba(14, 14, 14, 0.346) 0px 14px 28px,
+    rgba(0, 0, 0, 0.428) 0px 10px 10px;
 }
 .myImgTwo {
   max-width: 23rem;
@@ -32,4 +34,23 @@
   font-weight: 600;
   display: inline;
   color: #f18b3e;
+}
+.btn button {
+  border: 0.1rem solid grey;
+  font-size: 1rem;
+}
+.extraLink {
+  padding: 1% 10%;
+  border: 0.1rem solid grey;
+  border-radius: 1rem;
+}
+.extraLink a {
+  text-decoration: none;
+  color: rgb(203, 203, 203);
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.extraLink a:hover {
+  color: white;
+  transition: 0.2s ease;
 }

@@ -53,6 +53,13 @@ const AboutMe = () => {
                     <br />
                   </p>
                 </span>
+                <Box className={classes.extraLink}>
+                  <h3>
+                    <a href="https://www.linkedin.com/in/yashwardhanm-singh-083064291/">
+                      You can contact me from here also ...
+                    </a>
+                  </h3>
+                </Box>
               </Box>
             </Grid>
           </Grid>
