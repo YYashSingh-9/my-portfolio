@@ -1,4 +1,4 @@
-import { Box, Grid } from "@mui/material";
+import { Box, Grid, Container } from "@mui/material";
 import classes from "./SkillSection.module.css";
 import html from "../assets/icons/html.png";
 import express from "../assets/icons/express.png";
@@ -14,7 +14,7 @@ import jwt from "../assets/icons/jwt.png";
 const SkillSection = () => {
   return (
     <>
-      <Box className={classes.skillDiv}>
+      <Box className={classes.skillDivOne}>
         <Grid
           container
           direction="column"
@@ -36,21 +36,16 @@ const SkillSection = () => {
                 <img src={jwt} />
                 <img src={mui} />
               </div>
-              <div className={classes.logoSlide}>
-                <img src={html} />
-                <img src={css} />
-                <img src={js} />
-                <img src={react} />
-                <img src={express} />
-                <img src={mongodb} />
-                <img src={node} />
-                <img src={mongoose} />
-                <img src={jwt} />
-                <img src={mui} />
-              </div>
             </Box>
           </Grid>
         </Grid>
+      </Box>
+      <Box className={classes.divTwo}>
+        <Container maxWidth="lg">
+          <Box className={classes.skillDivTitles}>
+            <h1>hah</h1>
+          </Box>
+        </Container>
       </Box>
     </>
   );

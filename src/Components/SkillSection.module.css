@@ -1,20 +1,20 @@
 .logoSlide img {
   height: 9rem;
-  margin-left: 10rem;
+  margin-left: 3rem;
   cursor: pointer;
 }
 .logos {
-  overflow: hidden;
   white-space: nowrap;
   position: relative;
+  max-width: 100%;
 }
 .logos::before,
 .logos::after {
   position: absolute;
-  content: "";
+  content: " ";
   display: block;
   top: 0;
-  width: 10%;
+  width: 15%;
   height: 100%;
   z-index: 4;
 }
@@ -28,8 +28,13 @@
   );
 }
 .logos:after {
-  right: 0;
-  background: red;
+  content: " ";
+  right: 0%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(0, 0, 0) 100%
+  );
 }
 .logoSlide {
   animation: 15s slide infinite linear;
@@ -38,19 +43,20 @@
 .logos:hover .logoSlide {
   animation-play-state: paused;
 }
-.skillDiv {
-  width: 100%;
+.skillDivOne {
   background-image: url("../assets/backgorund.png");
-  height: 100vh;
+  height: 20vh;
   background-position: fixed;
-  overflow: hidden;
 }
 
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+.skillDivTitles {
+  max-width: 100%;
+  padding: 1% 20%;
+  font-size: 10rem;
+  border: 0.1rem solid grey;
+}
+.divTwo {
+  background-image: url("../assets/backgorund.png");
+  height: 80vh;
+  background-position: fixed;
 }
