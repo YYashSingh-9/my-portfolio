@@ -1,5 +1,5 @@
 .logoSlide img {
-  height: 9rem;
+  height: 6rem;
   margin-left: 3rem;
   cursor: pointer;
 }
@@ -47,16 +47,60 @@
   background-image: url("../assets/backgorund.png");
   height: 20vh;
   background-position: fixed;
+  overflow: hidden;
 }
 
 .skillDivTitles {
   max-width: 100%;
-  padding: 1% 20%;
-  font-size: 10rem;
+  max-height: 100%;
+  padding: 1% 10%;
+  margin-top: 5%;
+  border-radius: 2rem;
   border: 0.1rem solid grey;
+  /* box-shadow: rgb(9, 9, 9) 0px 14px 28px, rgba(0, 0, 0, 0.918) 0px 10px 10px; */
 }
 .divTwo {
   background-image: url("../assets/backgorund.png");
-  height: 80vh;
+  height: 100vh;
   background-position: fixed;
+  overflow-y: hidden;
+}
+.skillDivTitles h2 {
+  font-size: 3.7rem;
+  text-transform: capitalize;
+}
+.skillDivTitles h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.skillDivTitles h4 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.listitem h4 {
+  margin: 0;
+}
+.listitem {
+  list-style-type: circle;
+}
+.listitem img {
+  height: 2rem;
+}
+ul {
+  padding: 0;
+}
+.listitle {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  list-style: none;
+  margin: 1rem 0rem;
+}
+.lists {
+  display: flex;
+}
+.listTwo,
+.listThree,
+.listFour {
+  margin-left: 5%;
 }
