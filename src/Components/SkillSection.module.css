@@ -1,6 +1,6 @@
 .logoSlide img {
   height: 6rem;
-  margin-left: 3rem;
+  margin-left: 2.8rem;
   cursor: pointer;
 }
 .logos {
@@ -58,12 +58,14 @@
   border-radius: 2rem;
   border: 0.1rem solid grey;
   /* box-shadow: rgb(9, 9, 9) 0px 14px 28px, rgba(0, 0, 0, 0.918) 0px 10px 10px; */
+  box-shadow: rgba(14, 14, 14, 0.346) 0px 14px 28px,
+    rgba(0, 0, 0, 0.428) 0px 10px 10px;
 }
 .divTwo {
   background-image: url("../assets/backgorund.png");
-  height: 100vh;
+  height: 90vh;
   background-position: fixed;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 .skillDivTitles h2 {
   font-size: 3.7rem;
@@ -98,9 +100,21 @@ ul {
 }
 .lists {
   display: flex;
+  justify-content: right;
 }
+.listOne,
 .listTwo,
 .listThree,
 .listFour {
   margin-left: 5%;
+}
+
+.myImg {
+  max-width: 23rem;
+  max-height: 23rem;
+  margin-left: -2rem;
+}
+.myImg img {
+  height: 100%;
+  width: 100%;
 }

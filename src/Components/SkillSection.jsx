@@ -14,8 +14,8 @@ import ReactRouter from "../assets/icons/react-router.png";
 import Redux from "../assets/icons/redux.png";
 import ReactToastify from "../assets/icons/toastify.png";
 import PostMan from "../assets/icons/postman-icon.png";
-import VSCode from "../assets/icons/vscode.png";
 import GitHub from "../assets/icons/github.png";
+import showingHand from "../assets/my-cartoon-Final/showingHand.png";
 
 const listItemsFE = [
   "Html5",
@@ -69,9 +69,10 @@ const SkillSection = () => {
                 <img src={JWT} />
                 <img src={ReactRouter} />
                 <img src={Redux} />
+                <img src={GitHub} />
                 <img src={ReactToastify} />
                 <img src={PostMan} />
-                <img src={GitHub} />
+                <img src={MaterialUI} />
               </div>
             </Box>
           </Grid>
@@ -90,6 +91,9 @@ const SkillSection = () => {
               <h4>Following are my skills : -</h4>
             </span>
             <Box className={classes.lists}>
+              <div className={classes.myImg}>
+                <img src={showingHand} />
+              </div>
               <div className={classes.listOne}>
                 <ul>
                   <li className={classes.listitle}>Front-End</li>
