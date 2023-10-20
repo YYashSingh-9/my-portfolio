@@ -52,7 +52,7 @@ const FooterDiv = () => {
                     <a href="https://twitter.com/Yash__9999">I am here too..</a>
                   </Button>
                   <Button color="success" endIcon={<GoogleIcon />}>
-                    <a href="mailto: yyashsngh@gmail.com">
+                    <a href="mailto:yyashsngh@gmail.com">
                       Or you can mail me..
                     </a>
                   </Button>
