@@ -6,13 +6,13 @@ import img4 from "../assets/my-cartoon-Final/crossFingers.png";
 import img5 from "../assets/my-cartoon-Final/ThumbsUp.png";
 import titleImg from "../assets/title.png";
 import subtitleImg from "../assets/subtitle.png";
-
+import { Link } from "react-scroll";
 import { AppBar, Box, Container, Tooltip, Paper } from "@mui/material";
 import { Grid } from "@mui/material";
 const Header = () => {
   return (
     <>
-      <div className={classes.divOne}>
+      <div className={classes.divOne} id="my-page">
         <Box>
           <Grid
             container
@@ -28,53 +28,93 @@ const Header = () => {
               >
                 <Box className={classes.Navbar}>
                   <div className={classes.navIcon}>
-                    <Tooltip
-                      title={
-                        <h3 className={classes.tooltipDesignH3}>My Page</h3>
-                      }
+                    <Link
+                      to="my-page"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
                     >
-                      <img src={img1} />
-                    </Tooltip>
+                      <Tooltip
+                        title={
+                          <h3 className={classes.tooltipDesignH3}>My Page</h3>
+                        }
+                      >
+                        <img src={img1} />
+                      </Tooltip>
+                    </Link>
                   </div>
                   <div className={classes.navIcon}>
-                    <Tooltip
-                      title={
-                        <h3 className={classes.tooltipDesignH3}>My Skills</h3>
-                      }
+                    <Link
+                      to="my-skills"
+                      spy={true}
+                      smooth={true}
+                      offset={10}
+                      duration={500}
                     >
-                      <img src={img5} />
-                    </Tooltip>
+                      <Tooltip
+                        title={
+                          <h3 className={classes.tooltipDesignH3}>My Skills</h3>
+                        }
+                      >
+                        <img src={img5} />
+                      </Tooltip>
+                    </Link>
                   </div>
                   <div className={classes.navIcon}>
-                    <Tooltip
-                      title={
-                        <h3 className={classes.tooltipDesignH3}>My Work</h3>
-                      }
+                    <Link
+                      to="my-work"
+                      spy={true}
+                      smooth={true}
+                      offset={10}
+                      duration={500}
                     >
-                      <img src={img2} />
-                    </Tooltip>
+                      <Tooltip
+                        title={
+                          <h3 className={classes.tooltipDesignH3}>My Work</h3>
+                        }
+                      >
+                        <img src={img2} />
+                      </Tooltip>
+                    </Link>
                   </div>
                   <div className={classes.navIcon}>
-                    <Tooltip
-                      title={
-                        <h3 className={classes.tooltipDesignH3}>
-                          My Information
-                        </h3>
-                      }
+                    <Link
+                      to="my-info"
+                      spy={true}
+                      smooth={true}
+                      offset={10}
+                      duration={500}
                     >
-                      <img src={img4} />
-                    </Tooltip>
+                      <Tooltip
+                        title={
+                          <h3 className={classes.tooltipDesignH3}>
+                            My Information
+                          </h3>
+                        }
+                      >
+                        <img src={img4} />
+                      </Tooltip>
+                    </Link>
                   </div>
                   <div className={classes.navIcon}>
-                    <Tooltip
-                      title={
-                        <h3 className={classes.tooltipDesignH3}>
-                          My Contact info
-                        </h3>
-                      }
+                    <Link
+                      to="my-contact"
+                      spy={true}
+                      smooth={true}
+                      offset={10}
+                      duration={500}
                     >
-                      <img src={img3} />
-                    </Tooltip>
+                      <Tooltip
+                        title={
+                          <h3 className={classes.tooltipDesignH3}>
+                            My Contact info
+                          </h3>
+                        }
+                      >
+                        <img src={img3} />
+                      </Tooltip>
+                    </Link>
                   </div>
                 </Box>
               </AppBar>

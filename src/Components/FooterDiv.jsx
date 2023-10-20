@@ -12,7 +12,7 @@ import Stack from "@mui/material/Stack";
 const FooterDiv = () => {
   return (
     <>
-      <Box className={classes.mainFooterDiv}>
+      <Box className={classes.mainFooterDiv} id="my-contact">
         <Container maxWidth="lg">
           <Grid
             container

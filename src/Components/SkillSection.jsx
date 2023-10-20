@@ -46,7 +46,7 @@ const ListItem = (props) => {
 const SkillSection = () => {
   return (
     <>
-      <Box className={classes.skillDivOne}>
+      <Box className={classes.skillDivOne} id="my-skills">
         <Grid
           container
           direction="column"

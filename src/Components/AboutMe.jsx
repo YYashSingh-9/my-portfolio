@@ -4,7 +4,7 @@ import gossip from "../assets/my-cartoon-Final/gossip.png";
 const AboutMe = () => {
   return (
     <>
-      <Box className={classes.aboutmeSection}>
+      <Box className={classes.aboutmeSection} id="my-info">
         <Container maxWidth="lg">
           <Grid
             container

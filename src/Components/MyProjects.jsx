@@ -11,7 +11,7 @@ const MyProjects = () => {
     "App is under construction will be live soon.. good things take time. Once the app will be live i will share it on my socials, for that you can follow me.";
   return (
     <>
-      <Box className={classes.mainPDiv}>
+      <Box className={classes.mainPDiv} id="my-work">
         <Container maxWidth="lg">
           <Box className={classes.subMain}>
             <Box className={classes.headTitle}>
