@@ -49,7 +49,7 @@ const Header = () => {
                       to="my-skills"
                       spy={true}
                       smooth={true}
-                      offset={10}
+                      offset={0}
                       duration={500}
                     >
                       <Tooltip

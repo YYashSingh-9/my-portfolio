@@ -64,3 +64,43 @@
   background-color: transparent;
   color: white;
 }
+
+@media (min-width: 280px) and (max-width: 600px) {
+  .titleimg img {
+    max-height: 65rem;
+  }
+  .Subtitleimg {
+    margin-top: -52%;
+  }
+  .Subtitleimg img {
+    max-width: 100%;
+    max-height: 55rem;
+    max-height: inherit;
+  }
+  .socials button {
+    font-size: 0rem;
+    font-weight: 400;
+  }
+  .socials {
+    overflow-x: scroll;
+  }
+  .socials::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  footer h3 {
+    font-size: 1.4rem;
+  }
+  .myname,
+  small {
+    font-size: 1.1rem;
+  }
+  .mainFooterDiv {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 600px) {
+  .Subtitleimg {
+    margin-top: -45%;
+  }
+}

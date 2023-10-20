@@ -19,7 +19,6 @@ const FooterDiv = () => {
             direction="column"
             alignItems={"center"}
             justifyContent={"center"}
-            spacing={5}
           >
             <Grid item lg={12} md={12} sm={12} xs={12}>
               <Box className={classes.titleimg}>
@@ -29,8 +28,8 @@ const FooterDiv = () => {
                 <img src={titleImg} />
               </Box>
             </Grid>
-            <Container maxWidth="lg">
-              <Box sx={{ width: "100%" }} className={classes.socials}>
+            <Container sx={{ paddingLeft: 0, paddingRight: 0 }}>
+              <Box className={classes.socials}>
                 <Stack
                   direction="row"
                   justifyContent={"center"}
