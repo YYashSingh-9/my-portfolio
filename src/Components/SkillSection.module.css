@@ -90,9 +90,7 @@
 .listitem {
   list-style-type: circle;
 }
-.listitem img {
-  height: 2rem;
-}
+
 ul {
   padding: 0;
 }
@@ -123,4 +121,52 @@ ul {
 .myImg img {
   height: 100%;
   width: 100%;
+}
+@media (min-width: 280px) and (max-width: 600px) {
+  .logoSlide img {
+    height: 4rem;
+    margin-left: 2rem;
+  }
+  .skillDivOne {
+    height: 20vh;
+    overflow-y: scroll;
+  }
+  .skillDivOne::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  .logos {
+    white-space: wrap;
+  }
+  .skillDivTitles {
+    padding: 1% 5%;
+  }
+  .skillDivTitles h2 {
+    font-size: 2.5rem;
+  }
+  .skillDivTitles h3 {
+    font-size: 1.2rem;
+  }
+  .skillDivTitles h4 {
+    font-size: 1rem;
+  }
+  .listOne,
+  .listTwo,
+  .listThree,
+  .listFour {
+    padding-left: 2rem;
+  }
+  .listitle {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 1rem 0rem;
+  }
+  .divTwo {
+    height: 100vh;
+  }
+  .lists {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15rem 15rem 15rem;
+    row-gap: 1rem;
+  }
 }

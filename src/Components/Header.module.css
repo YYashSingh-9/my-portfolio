@@ -72,3 +72,12 @@
 .Subtitle img {
   max-width: 60%;
 }
+
+@media (min-width: 280px) and (max-width: 600px) {
+  .divOne {
+    height: 60vh;
+  }
+  .title {
+    margin-top: 20%;
+  }
+}
