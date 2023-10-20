@@ -17,27 +17,40 @@ import PostMan from "../assets/icons/postman-icon.png";
 import showingHand from "../assets/my-cartoon-Final/showingHand.png";
 
 const listItemsFE = [
-  "Html5",
-  "CSS3",
-  "JavaScript",
-  "ReactJS",
-  "ReactRouter",
-  "Redux",
-  "Redux-toolkit",
-  "ReactToastify",
+  { title: "Html5", key: 1 },
+  { title: "CSS3", key: 2 },
+  { title: "JavaScript", key: 3 },
+  { title: "ReactJS", key: 4 },
+  { title: "ReactRouter", key: 5 },
+  { title: "Redux", key: 6 },
+  { title: "Redux-toolkit", key: 7 },
+  { title: "ReactToastify", key: 8 },
 ];
-const listItemsBE = ["ExpressJS", "NodeJS", "MongoDb", "Mongoose", "JWT"];
-const listItemsOther = ["MaterialUI", "PostMan", "GitHub", "VSCode"];
+const listItemsBE = [
+  { title: "ExpressJS", key: 9 },
+  { title: "NodeJS", key: 10 },
+  { title: "MongoDb", key: 11 },
+  { title: "Mongoose", key: 12 },
+  { title: "JWT", key: 13 },
+];
+const listItemsOther = [
+  { title: "MaterialUI", key: 14 },
+  { title: "PostMan", key: 15 },
+  { title: "GitHub", key: 16 },
+  { title: "VSCode", key: 17 },
+];
 const otherSkill = [
-  "Business Planning",
-  "Management",
-  "Communication",
-  "leadership",
+  { title: "Business Planning", key: 18 },
+  { title: "Management", key: 19 },
+  { title: "Communication", key: 20 },
+  { title: "leadership", key: 21 },
 ];
 const ListItem = (props) => {
+  const liKey = props.ke;
+  console.log(liKey);
   return (
     <>
-      <li className={classes.listitem}>
+      <li key={liKey} className={classes.listitem}>
         <h4>{props.title}</h4>
       </li>
     </>
@@ -93,34 +106,34 @@ const SkillSection = () => {
                 <img src={showingHand} />
               </div>
               <div className={classes.listOne}>
-                <ul>
+                <ul key={1111}>
                   <li className={classes.listitle}>Front-End</li>
                   {listItemsFE.map((el) => {
-                    return <ListItem title={el} />;
+                    return <ListItem title={el.title} ke={el.key} />;
                   })}
                 </ul>
               </div>
               <div className={classes.listTwo}>
-                <ul>
+                <ul key={1444}>
                   <li className={classes.listitle}>Back-End</li>
-                  {listItemsBE.map((el) => {
-                    return <ListItem title={el} />;
+                  {listItemsBE.map((el, ind) => {
+                    return <ListItem title={el.title} ke={el.key} />;
                   })}
                 </ul>
               </div>
               <div className={classes.listThree}>
-                <ul>
+                <ul key={1333}>
                   <li className={classes.listitle}>Framework,Tool & IDE</li>
-                  {listItemsOther.map((el) => {
-                    return <ListItem title={el} />;
+                  {listItemsOther.map((el, ind) => {
+                    return <ListItem title={el.title} ke={el.key} />;
                   })}
                 </ul>
               </div>
               <div className={classes.listFour}>
-                <ul>
+                <ul key={1222}>
                   <li className={classes.listitle}>My Extra Skills</li>
-                  {otherSkill.map((el) => {
-                    return <ListItem title={el} />;
+                  {otherSkill.map((el, ind) => {
+                    return <ListItem title={el.title} ke={el.key} />;
                   })}
                 </ul>
               </div>

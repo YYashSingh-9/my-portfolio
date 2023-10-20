@@ -27,12 +27,24 @@ const MyProjects = () => {
               >
                 <Grid item lg={6}>
                   <Box>
-                    <Card img={img1} text={text1} title={"Two Fragrence"} />
+                    <Card
+                      img={img1}
+                      text={text1}
+                      title={"Two Fragrence"}
+                      repoLink={"https://github.com/YYashSingh-9/ordinary-site"}
+                      demoLink={"https://two-fragrence.netlify.app/"}
+                    />
                   </Box>
                 </Grid>
                 <Grid item lg={6}>
                   <Box>
-                    <Card img={img2} text={text2} title={"Live soon"} />
+                    <Card
+                      img={img2}
+                      text={text2}
+                      title={"Live soon"}
+                      repoLink={null}
+                      demoLink={null}
+                    />
                   </Box>
                 </Grid>
               </Grid>

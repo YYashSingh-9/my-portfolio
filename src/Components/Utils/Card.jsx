@@ -8,6 +8,8 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 export default function MediaCard(props) {
+  const repoLink = props.repoLink ? props.repoLink : null;
+  const demoLink = props.demoLink ? props.demoLink : null;
   return (
     <Card className={classes.pcard}>
       <CardMedia
@@ -34,9 +36,11 @@ export default function MediaCard(props) {
       </CardContent>
       <CardActions className={classes.buttons}>
         <Button size="large">
-          <a href="https://two-fragrence.netlify.app/">Visit site</a>
+          <a href={demoLink}>Visit site</a>
         </Button>
-        <Button size="large">Check Repo</Button>
+        <Button size="large">
+          <a href={repoLink}>Check Repo</a>
+        </Button>
       </CardActions>
     </Card>
   );
