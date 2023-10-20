@@ -66,7 +66,7 @@ const Header = () => {
                       to="my-work"
                       spy={true}
                       smooth={true}
-                      offset={10}
+                      offset={0}
                       duration={500}
                     >
                       <Tooltip
@@ -83,7 +83,7 @@ const Header = () => {
                       to="my-info"
                       spy={true}
                       smooth={true}
-                      offset={10}
+                      offset={0}
                       duration={500}
                     >
                       <Tooltip
@@ -102,7 +102,7 @@ const Header = () => {
                       to="my-contact"
                       spy={true}
                       smooth={true}
-                      offset={10}
+                      offset={0}
                       duration={500}
                     >
                       <Tooltip

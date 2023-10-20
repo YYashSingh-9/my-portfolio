@@ -81,3 +81,8 @@
     padding-top: 50%;
   }
 }
+@media (min-width: 600px) and (max-width: 1000px) {
+  .title {
+    padding-top: 10%;
+  }
+}
