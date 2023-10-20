@@ -41,7 +41,7 @@
 @media (min-width: 280px) and (max-width: 600px) {
   .cardDiv {
     overflow-y: scroll;
-    max-height: 45rem;
+    max-height: 42rem;
   }
   .cardDiv::-webkit-scrollbar {
     display: none; /* Safari and Chrome */

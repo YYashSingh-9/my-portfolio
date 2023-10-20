@@ -67,7 +67,7 @@
   }
   .titleNtext {
     overflow-y: scroll;
-    max-height: 60vh;
+    max-height: 55vh;
   }
   .titleNtext::-webkit-scrollbar {
     display: none; /* Safari and Chrome */
