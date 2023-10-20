@@ -141,7 +141,7 @@ ul {
     padding: 1% 5%;
   }
   .skillDivTitles h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
   .skillDivTitles h3 {
     font-size: 1.2rem;
@@ -157,7 +157,7 @@ ul {
   }
   .listitle {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 1rem 0rem;
   }
   .divTwo {
@@ -166,7 +166,7 @@ ul {
   .lists {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 15rem 15rem 15rem;
+    grid-template-rows: 20rem 13rem 13rem;
     row-gap: 1rem;
   }
 }
