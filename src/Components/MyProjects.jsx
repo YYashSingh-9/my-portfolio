@@ -23,6 +23,7 @@ const MyProjects = () => {
                 direction={"row"}
                 justifyContent={"center"}
                 alignItems={"center"}
+                spacing={1}
               >
                 <Grid item lg={6}>
                   <Box>

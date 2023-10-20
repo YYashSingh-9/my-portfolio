@@ -22,6 +22,7 @@ export default function MediaCard(props) {
           variant="body2"
           color="text.secondary"
           sx={{
+            fontSize: "1rem",
             fontWeight: "600",
             textAlign: "center",
             fontFamily: "-apple-system, BlinkMacSystemFont, sans-serif",

@@ -64,3 +64,23 @@
     margin-top: 5%;
   }
 }
+@media (min-width: 600px) and (max-width: 1000px) {
+  .cardDiv {
+    overflow-y: scroll;
+    max-height: 45rem;
+  }
+  .cardDiv::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  .subMain {
+    padding: 1% 4%;
+    margin-top: 5%;
+  }
+  .headTitle h2 {
+    font-size: 2.8rem;
+  }
+  .noteDiv {
+    padding: 0.5% 2%;
+    font-size: 0.9rem;
+  }
+}
