@@ -31,22 +31,45 @@ const FooterDiv = () => {
             </Grid>
             <Container maxWidth="lg">
               <Box sx={{ width: "100%" }} className={classes.socials}>
-                <Stack direction="row" justifyContent={"center"} spacing={4}>
+                <Stack
+                  direction="row"
+                  justifyContent={"center"}
+                  spacing={4}
+                  mr={4}
+                >
                   <Button color="secondary" endIcon={<InstagramIcon />}>
-                    You can follow me here..
+                    <a href="https://www.instagram.com/yashwardhanm_singh/">
+                      You can follow me here..
+                    </a>
                   </Button>
                   <Button color="success" endIcon={<LinkedInIcon />}>
-                    We can connect here..
+                    <a href="https://www.linkedin.com/in/yashwardhanm-singh-083064291/">
+                      We can connect here..
+                    </a>
                   </Button>
                 </Stack>
                 <Stack direction="row" justifyContent={"center"} spacing={1}>
                   <Button color="secondary" endIcon={<TwitterIcon />}>
-                    I am here too..
+                    <a href="https://twitter.com/Yash__9999">I am here too..</a>
                   </Button>
                   <Button color="success" endIcon={<GoogleIcon />}>
-                    Or you can mail me..
+                    <a href="mailto: yyashsngh@gmail.com">
+                      Or you can mail me..
+                    </a>
                   </Button>
                 </Stack>
+              </Box>
+              <Box sx={{ textAlign: "center", fontSize: 15 }} mt={15}>
+                <footer>
+                  <h3>
+                    Feel free to contact me , we never know how close we are to
+                    <span className={classes.myname}> gold.</span>
+                  </h3>
+                  <small>
+                    Copyright © 2023 This site is property of
+                    <span className={classes.myname}> _Yashwardhanm Singh</span>
+                  </small>
+                </footer>
               </Box>
             </Container>
           </Grid>

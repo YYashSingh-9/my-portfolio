@@ -1,10 +1,11 @@
 .mainFooterDiv {
   background-image: url("../assets/backgorund.png");
-  height: 100vh;
+  height: 90vh;
   max-width: 100%;
   background-position: fixed;
   padding: 1% 0%;
 }
+
 .titleimg {
   max-width: 100rem;
   max-height: 25rem;
@@ -25,19 +26,41 @@
 }
 .socials {
   border-radius: 2rem;
-  padding: 6% 1%;
+  padding: 2% 1%;
   border: 0.1rem solid grey;
   margin-top: -15%;
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  justify-content: center;
   box-shadow: rgba(14, 14, 14, 0.346) 0px 14px 28px,
     rgba(0, 0, 0, 0.428) 0px 10px 10px;
+}
+.socials:hover {
+  border-color: white;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
 }
 
 .socials button {
   font-size: 1.5rem;
   font-weight: 600;
   text-transform: capitalize;
-  color: rgb(225, 225, 225);
   margin-left: 0;
+  color: rgb(187, 187, 187);
+}
+.socials button:hover {
+  background-color: transparent;
+  color: white;
+}
+.myname {
+  color: #f18b3e;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.socials a {
+  text-decoration: none;
+  color: rgb(187, 187, 187);
+}
+.socials a:hover {
+  background-color: transparent;
+  color: white;
 }
