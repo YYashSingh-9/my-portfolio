@@ -1,9 +1,6 @@
 import * as React from "react";
 import Stack from "@mui/material/Stack";
-import GoogleIcon from "@mui/icons-material/Google";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
+
 import Button from "@mui/material/Button";
 
 export function socialOne() {

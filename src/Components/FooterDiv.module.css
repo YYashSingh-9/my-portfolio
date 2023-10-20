@@ -1,6 +1,7 @@
 .mainFooterDiv {
   background-image: url("../assets/backgorund.png");
   height: 100vh;
+  max-width: 100%;
   background-position: fixed;
   padding: 1% 0%;
 }
@@ -10,13 +11,33 @@
 }
 .titleimg img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 55rem;
 }
 .Subtitleimg {
   max-width: 100rem;
+  object-fit: contain;
   margin-top: -25%;
 }
 .Subtitleimg img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 55rem;
+  max-height: inherit;
+}
+.socials {
+  border-radius: 2rem;
+  padding: 6% 1%;
+  border: 0.1rem solid grey;
+  margin-top: -15%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  box-shadow: rgba(14, 14, 14, 0.346) 0px 14px 28px,
+    rgba(0, 0, 0, 0.428) 0px 10px 10px;
+}
+
+.socials button {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: rgb(225, 225, 225);
+  margin-left: 0;
 }
