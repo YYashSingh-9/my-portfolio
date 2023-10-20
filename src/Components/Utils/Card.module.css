@@ -7,6 +7,11 @@
 .titles {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+}
+.titleSub {
+  font-size: 1.4rem;
 }
 .buttons button {
   font-size: 1.2rem;
@@ -29,9 +34,35 @@
 .pcard {
   border: 0.1rem solid grey;
   border-radius: 2rem;
+  height: 41rem;
+  max-width: 30rem;
+  margin-left: 18%;
 }
 .pcard:hover {
   cursor: pointer;
   border: 0.1rem solid rgb(255, 255, 255);
   transition: 0.1s ease;
 }
+
+@media (min-width: 280px) and (max-width: 600px) {
+  .titles {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .titleSub {
+    font-size: 1.3rem;
+  }
+  .pcard {
+    height: 37rem;
+    width: 24rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+  .buttons {
+    margin-top: 0%;
+  }
+}
+/* sx={{ maxWidth: 345, height: 450, marginLeft: 7, borderRadius: 4 }} */

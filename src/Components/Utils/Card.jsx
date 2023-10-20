@@ -9,36 +9,24 @@ import Typography from "@mui/material/Typography";
 
 export default function MediaCard(props) {
   return (
-    <Card
-      sx={{ maxWidth: 345, height: 450, marginLeft: 7, borderRadius: 4 }}
-      className={classes.pcard}
-    >
-      <CardMedia sx={{ height: 200 }} image={props.img} title="green iguana" />
+    <Card className={classes.pcard}>
+      <CardMedia
+        sx={{ height: 200 }}
+        image={props.img}
+        title="green iguana"
+        className={classes.imgDiv}
+      />
       <CardContent>
-        <Typography
-          gutterBottom
-          variant="h5"
-          component="div"
-          sx={{
-            fontSize: "2rem",
-            fontWeight: "900",
-            textAlign: "center",
-            textTransform: "uppercase",
-            fontFamily: "-apple-system, BlinkMacSystemFont, sans-serif",
-          }}
-          className={classes.titles}
-        >
-          {props.title}
-        </Typography>
+        <h3 className={classes.titles}>{props.title}</h3>
         <Typography
           variant="body2"
           color="text.secondary"
           sx={{
-            fontSize: "1.4rem",
             fontWeight: "600",
             textAlign: "center",
             fontFamily: "-apple-system, BlinkMacSystemFont, sans-serif",
           }}
+          className={classes.titleSub}
         >
           {props.text}
         </Typography>

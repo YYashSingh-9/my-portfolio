@@ -17,23 +17,25 @@ const MyProjects = () => {
             <Box className={classes.headTitle}>
               <h2>Projects i made..</h2>
             </Box>
-            <Grid
-              container
-              direction={"row"}
-              justifyContent={"center"}
-              alignItems={"center"}
-            >
-              <Grid item lg={6}>
-                <Box>
-                  <Card img={img1} text={text1} title={"Two Fragrence"} />
-                </Box>
+            <Box className={classes.cardDiv}>
+              <Grid
+                container
+                direction={"row"}
+                justifyContent={"center"}
+                alignItems={"center"}
+              >
+                <Grid item lg={6}>
+                  <Box>
+                    <Card img={img1} text={text1} title={"Two Fragrence"} />
+                  </Box>
+                </Grid>
+                <Grid item lg={6}>
+                  <Box>
+                    <Card img={img2} text={text2} title={"Live soon"} />
+                  </Box>
+                </Grid>
               </Grid>
-              <Grid item lg={6}>
-                <Box>
-                  <Card img={img2} text={text2} title={"Live soon"} />
-                </Box>
-              </Grid>
-            </Grid>
+            </Box>
             <Box className={classes.noteDiv}>
               <NotificationImportantIcon
                 sx={{ color: "#F18B3E ", fontSize: 25 }}

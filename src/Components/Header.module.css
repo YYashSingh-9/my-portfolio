@@ -75,9 +75,9 @@
 
 @media (min-width: 280px) and (max-width: 600px) {
   .divOne {
-    height: 60vh;
+    height: 100vh;
   }
   .title {
-    margin-top: 20%;
+    padding-top: 50%;
   }
 }
