@@ -10,6 +10,10 @@ import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 
 const FooterDiv = () => {
+  const mailFn = (e) => {
+    e.preventDefault();
+    window.location.href = "mailto:yyashsngh@gmail.com";
+  };
   return (
     <>
       <Box className={classes.mainFooterDiv} id="my-contact">
@@ -52,14 +56,15 @@ const FooterDiv = () => {
                     <a href="https://twitter.com/Yash__9999">I am here too..</a>
                   </Button>
                   <Button color="success" endIcon={<GoogleIcon />}>
-                    <a href="mailto:yyashsngh@gmail.com">
-                      Or you can mail me..
-                    </a>
+                    <a onClick={mailFn}>Or you can mail me..</a>
                   </Button>
                 </Stack>
               </Box>
               <Box sx={{ textAlign: "center", fontSize: 15 }} mt={15}>
                 <footer>
+                  <h4 style={{ fontWeight: 500, color: "#F18B3E" }}>
+                    If link error - yyashsngh@gmail.com
+                  </h4>
                   <h3>
                     Feel free to contact me , we never know how close we are to
                     <span className={classes.myname}> gold.</span>

@@ -45,7 +45,6 @@
   max-width: 100%;
 }
 .divOne {
-  background-image: url("../assets/backgorund.png");
   height: 100vh;
   background-position: fixed;
   padding: 1% 10%;
