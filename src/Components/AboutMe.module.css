@@ -94,3 +94,36 @@
     font-size: 1.2rem;
   }
 }
+@media (min-width: 600px) and (max-width: 1000px) {
+  .titleNtext h2 {
+    font-size: 2.8rem;
+  }
+  .titleNtext {
+    overflow-y: scroll;
+    max-height: 100vh;
+  }
+  .titleNtext::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  .myImgTwo {
+    max-width: 22rem;
+    max-height: 22rem;
+  }
+  .titleNtext p {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .highlightedText {
+    font-size: 1.2rem;
+  }
+  .extraLink {
+    padding: 1% 10%;
+    border: 0.1rem solid grey;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .extraLink a {
+    font-size: 1.2rem;
+  }
+}

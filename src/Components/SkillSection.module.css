@@ -221,7 +221,7 @@ ul {
   .lists {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 22rem 13rem 13rem;
+    grid-template-rows: 20rem 13rem 13rem;
     row-gap: 0rem;
   }
 }
@@ -264,7 +264,6 @@ ul {
     font-size: 1.6rem;
     margin: 0rem 0rem;
   }
-
   .myImg {
     max-width: 21rem;
     max-height: 20rem;
