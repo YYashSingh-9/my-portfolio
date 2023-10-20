@@ -33,10 +33,7 @@ const AboutMe = () => {
                     As you might have already seen my skills section so you know
                     what i know and use but apart from that i am ..
                     <span className={classes.highlightedText}>
-                      <h1>
-                        more which makes me stand our from the crowd which
-                        are...
-                      </h1>
+                      more which makes me stand our from the crowd which are...
                     </span>
                     <br />
                     <br />
