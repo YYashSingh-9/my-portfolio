@@ -95,7 +95,7 @@
     font-size: 1.1rem;
   }
   .mainFooterDiv {
-    height: 70vh;
+    height: 65vh;
   }
 }
 
@@ -139,14 +139,23 @@
   .Subtitleimg {
     margin-top: -35%;
   }
+  .mainFooterDiv {
+    height: 80vh;
+  }
 }
 @media (min-width: 800px) and (max-width: 900px) {
   .Subtitleimg {
     margin-top: -32%;
   }
+  .mainFooterDiv {
+    height: 80vh;
+  }
 }
 @media (min-width: 900px) and (max-width: 1000px) {
   .Subtitleimg {
     margin-top: -28%;
+  }
+  .mainFooterDiv {
+    height: 90vh;
   }
 }
