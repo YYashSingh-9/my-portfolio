@@ -1,6 +1,6 @@
 # Black Diiamond file.
 
-![logo](https://github.com/YYashSingh-9/YYashSingh-9/blob/main/meditating.png)
+![logo](https://github.com/YYashSingh-9/YYashSingh-9/blob/main/White%20Coffee%20%20Youtube%20Thumbnail.png)
 
 <h2>This is version 1 of my Portfolio site.</h2>
 <h4>I will be updating my site in some time and will share about the updates on LinkedIn.</h4>
