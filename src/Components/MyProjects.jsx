@@ -1,6 +1,6 @@
 import { Box, Container, Grid } from "@mui/material";
 import img1 from "../assets/Two_fragrence.png";
-import img2 from "../assets/nulltitile.png";
+import img2 from "../assets/ehWater.png";
 import NotificationImportantIcon from "@mui/icons-material/NotificationImportant";
 import classes from "./MyProjects.module.css";
 import Card from "./Utils/Card";
@@ -42,8 +42,8 @@ const MyProjects = () => {
                       img={img2}
                       text={text2}
                       title={"Live soon"}
-                      repoLink={null}
-                      demoLink={null}
+                      repoLink={"https://github.com/YYashSingh-9/EH-Water"}
+                      demoLink={"https://eh-water.netlify.app/"}
                     />
                   </Box>
                 </Grid>
