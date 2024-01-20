@@ -6,9 +6,9 @@ import classes from "./MyProjects.module.css";
 import Card from "./Utils/Card";
 const MyProjects = () => {
   const text1 =
-    "WithSmooth and amazing functionalities , this e-com is a full stack web app made with MERN stack with 60+ features and task of a e-com web app";
+    "With smooth and amazing functionalities , this e-com is a full stack web app made with MERN stack with 60+ features and task of a e-com web app";
   const text2 =
-    "App is under construction will be live soon.. good things take time. Once the app will be live i will share it on my socials, for that you can follow me.";
+    "EH Water is a step towards better water related problem solving, this web app is a proper full stack web app.";
   return (
     <>
       <Box className={classes.mainPDiv} id="my-work">
@@ -41,7 +41,7 @@ const MyProjects = () => {
                     <Card
                       img={img2}
                       text={text2}
-                      title={"Live soon"}
+                      title={"EH Water"}
                       repoLink={"https://github.com/YYashSingh-9/EH-Water"}
                       demoLink={"https://eh-water.netlify.app/"}
                     />
