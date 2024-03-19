@@ -71,7 +71,7 @@ const FooterDiv = () => {
                   </h3>
                   <small>
                     Copyright © 2023 This site is property of
-                    <span className={classes.myname}> _Yashwardhanm Singh</span>
+                    <span className={classes.myname}> _Yashwardhan Singh</span>
                   </small>
                 </footer>
               </Box>
